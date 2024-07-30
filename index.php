@@ -27,6 +27,7 @@ $box1->addEquipment(EquipementFactory::createEquipement('Pelleteuse'));
 
 echo "\n";
 
+
 foreach (BoxMultiton::getInstances() as $box) {
     echo $box;
     echo "\n";
